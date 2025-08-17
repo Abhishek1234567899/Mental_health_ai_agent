@@ -1,0 +1,22 @@
+[project]
+name = "Mental_health_ai_agent"
+version = "0.1.0"
+description = "AI Mental Health Therapist frontend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "google-generativeai>=0.8.5",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.0.10",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.5",
+    "ollama>=0.5.3",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "streamlit>=1.48.1",
+    "twilio>=9.7.0",
+    "uv>=0.8.11",
+    "uvicorn>=0.35.0",
+]
+
+[tool.uv]

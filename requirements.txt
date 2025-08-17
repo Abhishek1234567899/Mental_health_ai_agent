@@ -1,0 +1,9 @@
+# requirements.txt for Render deployment
+streamlit
+fastapi
+uvicorn
+requests
+pydantic
+google-generativeai
+twilio
+# Add any other dependencies you use
